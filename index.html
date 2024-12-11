@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="BBackground-container">
+            <div class="toppart">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" height="150px" width="500px" />
+                <h2>My Projects</h2>
+                <p>These are a few of my Static Website projects that I have developed using HTML, CSS and Bootstrap</p>
+            </div>
+            <div class="bottompart d-flex flex-row justify-content-center">
+                <div class="image1">
+                    <ul>
+                        <li><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" height="100px" width="100px" onclick="display('sectionAd')" /></li>
+                        <li><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" height="100px" width="100px" onclick="display('sectionMeals')" /></li>
+                    </ul>
+                </div>
+                <div class="image2">
+                    <ul>
+                        <li><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" height="100px" width="100px" onclick="display('sectionDiwali')" /></li>
+                        <li><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" height="100px" width="100px" onclick="display('sectionNews')" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionAd">
+        <div class="background-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1>Advanced Technologies</h1>
+                <p>Machinery and equipment developed from the application of scientific knowledge</p>
+
+                <div class="button">
+                    <button class="button1">Learn more</button>
+
+                    <button class="button2">save draft</button>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="sectionMeals">
+        <div class="container d-flex flex-column justify-content-end">
+            <div class="card d-flex flex-colum justify-content-end">
+                <h1>Happy Meals</h1>
+                <p>Discover the best foods over the
+                    1,000 restaurants</p>
+                <button>Book Now</button>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDiwali">
+        <div class="background-container d-flex flex-column justify-content-end">
+            <div class="card">
+                <h1>Royal Grand Hotel</h1>
+                <p>R.K.Beach, Vishakhaptnam</p>
+                <h1>1200 /-</h1>
+            </div>
+            <div class="card2 d-flex flex-column justify-content-end">
+                <div class=" Btn d-flex flex-row justify-content-center">
+                    <button>Book Now</button>
+                </div>
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="sectionNews">
+        <div class="Background-container d-flex flex-column justify-content-end">
+            <div class="card d-flex flex-column justify-content-center">
+                <p>NEWS OF THE DAY</p>
+                <h1>iB Cricket announces world's first Vitual Reality Cricket League </h1>
+                <p>iB Cricket and Viu together have announced the World's first virtual reality cricket league featuring 12 international cricketers, who will be competing against each other for the iB Cricket Super Over League title in Mumbai. Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league</p>
+                <button>Read more</button>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
